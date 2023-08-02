@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>edu.ubp.doo</groupId>
+    <artifactId>djlAi</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+        <exec.mainClass>edu.ubp.doo.djlai.DjlAi</exec.mainClass>
+    </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/ai.djl/api -->
+        <dependency>
+            <groupId>ai.djl</groupId>
+            <artifactId>api</artifactId>
+            <version>0.23.0</version>
+        </dependency>
+        <dependency>
+            <groupId>ai.djl</groupId>
+            <artifactId>model-zoo</artifactId>
+            <version>0.23.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/ai.djl.mxnet/mxnet-model-zoo -->
+        <dependency>
+            <groupId>ai.djl.mxnet</groupId>
+            <artifactId>mxnet-model-zoo</artifactId>
+            <version>0.23.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/ai.djl.mxnet/mxnet-native-mkl -->
+        <dependency>
+            <groupId>ai.djl.mxnet</groupId>
+            <artifactId>mxnet-native-mkl</artifactId>
+            <version>1.9.1</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/ai.djl.onnxruntime/onnxruntime-engine -->
+        <dependency>
+            <groupId>ai.djl.onnxruntime</groupId>
+            <artifactId>onnxruntime-engine</artifactId>
+            <version>0.23.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/ai.djl.pytorch/pytorch-engine -->
+        <dependency>
+            <groupId>ai.djl.pytorch</groupId>
+            <artifactId>pytorch-engine</artifactId>
+            <version>0.23.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/ai.djl.opencv/opencv -->
+        <dependency>
+            <groupId>ai.djl.opencv</groupId>
+            <artifactId>opencv</artifactId>
+            <version>0.23.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openpnp</groupId>
+            <artifactId>opencv</artifactId>
+            <version>4.7.0-0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.26</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.7</version>
+        </dependency>
+         
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20220320</version>
+        </dependency>
+        <dependency>
+            <groupId>xalan</groupId>
+            <artifactId>xalan</artifactId>
+            <version>2.7.3</version>
+        </dependency>
+
+    </dependencies>
+</project>
