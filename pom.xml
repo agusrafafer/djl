@@ -9,7 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
-        <exec.mainClass>edu.ubp.doo.djlai.DjlAi</exec.mainClass>
+        <exec.mainClass>edu.ubp.djlai.DjlAi</exec.mainClass>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/ai.djl/api -->
