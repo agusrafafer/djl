@@ -1,4 +1,4 @@
-package edu.ubp.doo.djlai;
+package edu.ubp.djlai;
 
 import ai.djl.Application;
 import ai.djl.MalformedModelException;

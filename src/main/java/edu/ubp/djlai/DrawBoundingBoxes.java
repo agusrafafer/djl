@@ -1,4 +1,4 @@
-package edu.ubp.doo.djlai;
+package edu.ubp.djlai;
 
 import ai.djl.modality.Classifications;
 import ai.djl.modality.cv.Image;

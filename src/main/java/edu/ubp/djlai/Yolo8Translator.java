@@ -1,4 +1,4 @@
-package edu.ubp.doo.djlai;
+package edu.ubp.djlai;
 
 import ai.djl.modality.cv.Image;
 import ai.djl.modality.cv.output.BoundingBox;

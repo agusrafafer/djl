@@ -1,4 +1,4 @@
-package edu.ubp.doo.djlai;
+package edu.ubp.djlai;
 
 import java.awt.EventQueue;
 import java.awt.Graphics;
